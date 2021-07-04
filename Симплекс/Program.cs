@@ -122,7 +122,6 @@ namespace Симплекс
             {
                 using (StreamReader sr = new StreamReader(@"Ввод.csv"))
                 {
-                    sr.ReadLine();
                     str1 = sr.ReadToEnd();
                     string[] st = str1.Split('\n');
                     raz1 = st.Length;
